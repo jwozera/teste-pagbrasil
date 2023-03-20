@@ -142,7 +142,7 @@ function pagbrasil_scripts() {
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), _S_VERSION );
 	
 	wp_deregister_script('jquery');
-	wp_enqueue_script( 'jquery', 'https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js', null, true );
+	wp_enqueue_script( 'jquery', 'https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js', null, true );
 	wp_enqueue_script( 'script', get_template_directory_uri() . '/assets/js/bootstrap.bundle.min.js', array( 'jquery' ), null, true );
 	
 	wp_style_add_data( 'pagbrasil-style', 'rtl', 'replace' );

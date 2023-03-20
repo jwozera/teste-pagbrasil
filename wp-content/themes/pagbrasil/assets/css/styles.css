@@ -12,6 +12,10 @@ body {
   font-size: 16px;
 }
 
+a {
+  color: inherit;
+}
+
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
   padding-right: 30px;
   padding-left: 30px;
@@ -111,6 +115,9 @@ Navbar
 }
 .navbar-nav{
   background-color: #fff;
+}
+.menu-item {
+  margin: 5px 10px;
 }
 .navbar-toggler {
   border: 0;
